@@ -36,6 +36,9 @@ public class Prob5 {
 				}else{
 					correctNum =r.nextInt(100)+1;
 				}
+				i=0;
+				max=100;
+				min=0;
 			}else if(guessNum<correctNum){
 				System.out.println("더 높게");
 				min=guessNum;
